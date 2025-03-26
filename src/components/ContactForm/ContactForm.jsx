@@ -29,8 +29,6 @@ export default function ContactForm() {
         numberId: useId()
     };
 
-    console.log(formId);
-
     const handleSubmit = (event, actions) => {
         dispatch(addContact({
             id: nanoid(),
